@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,400;1,200;1,400&display=swap');
+
+/* font-family: 'Source Sans Pro', sans-serif; */
+
+body {
+  padding: 50px;
+}
+
+header {
+  display: block;
+  padding: 0 50px;
+}
+
+section {
+  box-sizing: border-box;
+  position: center;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  margin-block-start: 10px;
+  margin-block-end: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Source Sans Pro', sans-serif;
+  letter-spacing: 4.4px;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #474747;
+}
+
+li {
+  padding: 10px 40px;
+  border: 0;
+  margin: 10px auto;
+}
+
+img {
+  display: block;
+  border-style: none;
+  border-radius: 50%;
+  width: 200px;
+  padding: 10px 50px;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pic-background {
+  display: block;
+  border: 1px solid #eeeef5;
+    padding: 10px;
+    background-color: #f8f8ff;
+}
+
+h1, p {
+  display: block;
+  text-align: center;
+}
+
+#name-text {
+  text-transform: uppercase;
+  color: #474747;
+  font-family: 'Source Sans Pro', sans-serif;
+  letter-spacing: 6.4px;
+  width: 100%;
+  font-size: 24px;
+  line-height: 1.25;
+  font-weight: 400;
+}
+
+#describe-text {
+  text-transform: uppercase;
+  color: #474747;
+  font-family: 'Source Sans Pro', sans-serif;
+  letter-spacing: 4.4px;
+  width: 100%;
+  font-size: 12px;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+a:link { color: #474747; }
+a:visited { color: #474747; }
+a:hover { color: #fff; }
+a:active { color: #fff; }
+
+p {
+  text-transform: uppercase;
+  color: #474747;
+  font-family: 'Source Sans Pro', sans-serif;
+  letter-spacing: 4.4px;
+  width: 100%;
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 400;
+  text-align: center;
+}
+
+span {
+  text-transform: uppercase;
+  color: #474747;
+  font-family: 'Source Sans Pro', sans-serif;
+  letter-spacing: 4.4px;
+  width: 100%;
+  font-size: 12px;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+footer {
+  text-align: center;
+  padding: 0 50px;
+}
